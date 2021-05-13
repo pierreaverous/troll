@@ -1,0 +1,62 @@
+.card-category{
+  display: flex;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  width: 1000px;
+  height: 400px;
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 8px;
+  color: white;
+  align-items: flex-end;
+  text-shadow: 1px 1px 3px rgba(184, 14, 252, 0.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2)
+  
+}
+
+.card-product{
+  display: flex;
+  border-radius: 8px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+  align-items: center;
+  
+}
+.card-product img {
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+}
+
+.card-product .info {
+  padding-left: 40px;
+
+}
+.card-product h2 {
+  text-align: left;
+}
+.card-trip{
+  border-radius: 8px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+  align-items: center;
+
+}
+
+.card-trip img {
+  width: 800;
+  height: 400;
+  border-radius: 8px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+}
+.card-trip .infosend{
+  text-align: left;
+  padding-left: 100;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-right: 100;
+
+
+}
+.card-trip .prix{
+/*   text-align: right; */
+}
